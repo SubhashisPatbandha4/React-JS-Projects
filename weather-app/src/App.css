@@ -1,0 +1,45 @@
+.appContainer{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.weatherBg{
+    margin: 0px;
+    padding: 0px;
+    /* background:url(image/bg-Image.jpg); */
+    height:40vh;
+    width:100%;
+    min-width:514px;
+    display:flex;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-color: rgb(255, 102, 0);
+   
+} 
+.heading{
+    color:blue;
+    font-weight:900;
+    letter-spacing: 10px;
+}
+.weatherResult{
+    background-color: rgb(218, 250, 35);
+    margin: auto;
+    height: 300px;
+    width: 500px;
+}
+.weatherIcon{
+    height:100px;
+    width:100px;
+    margin-top:2rem;
+}
+.city{
+    font-size: 35px;
+}
+.tempreture{
+    font-size: 75px;
+    font-weight:700;
+}
